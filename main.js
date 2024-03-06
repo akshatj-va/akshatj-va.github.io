@@ -16,5 +16,5 @@ function initEmbeddedMessaging() {
 		console.error('Error loading Embedded Messaging: ', err);
 	}
 };
-let chatResourceLoader = document.getElementsByClassName('chat-resource-loader')[0];
+let chatResourceLoader = document.getElementById('chat-resource-loader');
 chatResourceLoader.onload = () => initEmbeddedMessaging();
