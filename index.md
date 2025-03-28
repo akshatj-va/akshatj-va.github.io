@@ -77,6 +77,14 @@
 	<script>
  		function showChat() {
 	       		console.log('show chat');
+			  embedded_svc.liveAgentAPI.startChat({
+			        directToAgentRouting: {
+			          buttonId: "573O50000016oZR",
+			          fallback: true
+			        },
+			        extraPrechatInfo: [],
+			        extraPrechatFormDetails: []
+	      		});
 	       	}
 	 </script>
     </body>
