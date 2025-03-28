@@ -73,10 +73,11 @@
             } else {
                 initESW('https://service.force.com');
             }
-
-     	 function showChat() {
-       		console.log('show chat');
-       	}
         </script>
+	<script>
+ 		function showChat() {
+	       		console.log('show chat');
+	       	}
+	 </script>
     </body>
 </html>
