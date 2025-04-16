@@ -20,8 +20,8 @@
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
-		embedded_svc.settings.displayHelpButton = false; //Or false
-		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+		embedded_svc.settings.displayHelpButton = false; // Hide Chat Button
+		embedded_svc.settings.language = 'en-US';
 
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
@@ -69,6 +69,8 @@
 		initESW('https://service.force.com');
 	}
 </script>
+
+/** Script to show chat dialog on button click **/
 <script>
  		function showChat() {
 	       		console.log('show chat');
