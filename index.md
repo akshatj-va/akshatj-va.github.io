@@ -23,9 +23,9 @@
 			embedded_svc.settings.displayHelpButton = false; // Hide Chat Button
 			embedded_svc.settings.language = 'en-US';
 			   embedded_svc.settings.prepopulatedPrechatFields = {
-				    FirstName: “John”,
-				    LastName: “Doe”,
-				    Email: “john.doe@salesforce.com”
+				    FirstName: 'John',
+				    LastName: 'Doe',
+				    Email: 'john.doe@salesforce.com'
 			    };
 	
 			embedded_svc.settings.enabledFeatures = ['LiveAgent'];
