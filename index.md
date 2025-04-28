@@ -35,6 +35,11 @@
 				// Returns a valid button ID.
 			//};
 			//embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+			   embedded_svc.settings.prepopulatedPrechatFields = {
+				    FirstName: “John”,
+				    LastName: “Doe”,
+				    Email: “john.doe@salesforce.com”
+			    };
 			//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
 			//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
 	
