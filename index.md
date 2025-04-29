@@ -65,6 +65,8 @@
 		/** Script to show chat dialog on button click **/
  		function showChat() {
 	       		console.log('show chat');
+	  embedded_svc.bootstrapEmbeddedService();
+	  /**
 			  embedded_svc.liveAgentAPI.startChat({
 			        directToAgentRouting: {
 			          buttonId: "573Nq000001KiU9",
@@ -72,7 +74,7 @@
 			        },
 			        extraPrechatInfo: [],
 			        extraPrechatFormDetails: []
-	      		});
+	      		});**/
 	       	}
 	 </script>
     </body>
