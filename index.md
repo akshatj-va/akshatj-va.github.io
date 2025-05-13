@@ -32,6 +32,11 @@ embedded_svc.settings.language = 'en-US';
 	    LastName: 'Doe',
 	    Email: 'john.doe@salesforce.com'
     };
+embedded_svc.settings.extraPrechatFormDetails = [ {
+	"label" : "Site",
+	"value" : 'Akshat',
+	"transcriptFields" : [ "First_Name__c" ]
+} ];
   embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
   //embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
