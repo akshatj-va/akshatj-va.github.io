@@ -33,10 +33,20 @@ embedded_svc.settings.language = 'en-US';
 	    Email: 'john.doe@salesforce.com'
     };
 embedded_svc.settings.extraPrechatFormDetails = [ {
-	"label" : "Site",
+	"label" : "First Name",
 	"value" : 'Akshat',
 	"transcriptFields" : [ "First_Name__c" ]
-} ];
+}, 
+						 {
+	"label" : "Last Name",
+	"value" : 'Jain',
+	"transcriptFields" : [ "Last_Name__c" ]
+},
+						{
+	"label" : "Email",
+	"value" : 'akshat.jain.sandbox@visiblealpha.com',
+	"transcriptFields" : [ "Email_Name__c" ]
+}];
   embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
   //embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
