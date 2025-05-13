@@ -27,6 +27,11 @@
 				    LastName: 'Doe',
 				    Email: 'john.doe@salesforce.com'
 			    };
+       embedded_svc.settings.extraPrechatFormDetails = [ {
+	"label" : "First Name",
+	"value" : 'John Doe',
+	"transcriptFields" : [ "First_Name__c" ]
+} ];
 	
 			embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 			embedded_svc.settings.entryFeature = 'LiveAgent';
