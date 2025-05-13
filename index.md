@@ -45,7 +45,7 @@ embedded_svc.settings.extraPrechatFormDetails = [ {
 						{
 	"label" : "Email",
 	"value" : 'akshat.jain.sandbox@visiblealpha.com',
-	"transcriptFields" : [ "Email_Name__c" ]
+	"transcriptFields" : [ "Email__c" ]
 }];
   embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
