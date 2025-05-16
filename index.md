@@ -66,21 +66,21 @@ embedded_svc.settings.extraPrechatFormDetails = [ {
   embedded_svc.settings.enabledFeatures = ['LiveAgent'];
   embedded_svc.settings.entryFeature = 'LiveAgent';
 
-  embedded_svc.init(
-   'https://spglobal--miomega.sandbox.my.salesforce.com',
-   'https://spglobal--miomega.sandbox.my.site.com/VAHelpCenter',
-   gslbBaseURL,
-   '00DU90000054O8v',
-   'Visible_Alpha_Support_Insights',
-   {
-    baseLiveAgentContentURL: 'https://c.la12s-core1.sfdc-lywfpd.salesforceliveagent.com/content',
-    deploymentId: '5726f000000blQA',
-    buttonId: '5736f000000blOx',
-    baseLiveAgentURL: 'https://d.la12s-core1.sfdc-lywfpd.salesforceliveagent.com/chat',
-    eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IU90000006qC1MAI_196a0e4c8b1',
-    isOfflineSupportEnabled: false
-   }
-  );
+ embedded_svc.init(
+			'https://spglobal--devserv1.sandbox.my.salesforce.com',
+			'https://spglobal--devserv1.sandbox.my.site.com/VAHelpCenter',
+			gslbBaseURL,
+			'00Ddl000002fNyn',
+			'Visible_Alpha_Support_Insights',
+			{
+				baseLiveAgentContentURL: 'https://c.la12s-core1.sfdc-8tgtt5.salesforceliveagent.com/content',
+				deploymentId: '5726f000000blQA',
+				buttonId: '5736f000000blOx',
+				baseLiveAgentURL: 'https://d.la12s-core1.sfdc-8tgtt5.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04Idl0000001YNpEAM_196d3b45ae6',
+				isOfflineSupportEnabled: false
+			}
+		);
  };
 
  if (!window.embedded_svc) {
