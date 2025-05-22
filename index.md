@@ -44,7 +44,7 @@ embedded_svc.settings.extraPrechatFormDetails = [ {
 },
 						{
 	"label" : "Email",
-	"value" : 'kxie.sandbox@serenitycap.com',
+	"value" : 'akshat.jain2@spglobal.com',
 	"transcriptFields" : [ "Email__c" ]
 }];
   embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
